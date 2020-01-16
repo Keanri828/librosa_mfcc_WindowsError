@@ -26,5 +26,5 @@ https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environme
 In this example script I used an audio file contained in RAVDESS (https://zenodo.org/record/1188976). This database
 contains emotional audio and video data that can be used in (e.g.) affective computing research fields. The audio file
 is not included in this git repository, because it's not relevant for the problem. Any audio or even video files (while
-creating this example I found out by accident that librosa can also load from \*.mp4). I'll also provide a function
-using an example audio file from librosa, so there's absolutely no download needed. 
+creating this example I found out by accident that librosa can also load from \*.mp4). The script
+`mfcc_test_librosaAudioExample.py` can be runned without any download. It uses an example audio file provided by librosa.
